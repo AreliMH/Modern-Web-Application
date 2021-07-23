@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+    <html>
+      <head>
+          <title>Home</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet"  href="main.css">
+            <script src="main.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+        </head>
+
+          <body>
+            <section class="header">
+                <nav>
+                  <a href="index.html"><img src="pics/s1.png"></a>
+                  <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="Projects.html">Projects</a>
+                        <li><a href="contact.html">Contact</a></li>         
+                    </ul>
+                  </div>
+                  <i class="fas fa-times" onclick="showmenu()"></i>
+                </nav> 
+              </section>  
+
+              <script>
+                var navlinks = document.getElementById("navLinks")
+
+                function showmenu(){
+                  navlinks.style.right = "0";
+                }
+                function hidemenu(){
+                  navlinks.style.right = "-200px";
+                }
+
+              </script>
+
+            <section class="location">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3083.479972611738!2d-76.60780918463499!3d39.39064597949762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c80fa2cf64cfbd%3A0x8f9511d72388ffcb!2sTowson%20University%3A%20Department%20of%20Computer%20and%20Information%20Sciences!5e0!3m2!1sen!2sus!4v1626987937315!5m2!1sen!2sus"
+                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+
+            <section class="contact-us">
+                        
+                <div class="col">
+                    <div class="contact-col">
+                        <div>
+                            <i class="fab fa-github"></i>
+                            <span>
+                                <h2>Source Code</h2>
+                                <li><a href="https://www.towson.edu/fcsm/departments/computerinfosci/?utm_source=redirect&utm_content=cosc">GitHub</a></li>
+                            </span>
+                        </div>
+
+                        <div>
+                            <i class="far fa-building"></i>
+                                <span>
+                                    <h2>Departmental Webpage</h2>
+                                    <li><a href="https://www.towson.edu/fcsm/departments/computerinfosci/?utm_source=redirect&utm_content=cosc">Towson University</a></li>
+                                </span>
+                        </div>
+                    </div>  
+                </div>
+            </section>
+
+            
+            <div class="footer-block">                    
+                <div class="footer">
+                    <div class="footer-heading 2">
+                          <a class="twitter-timeline" data-width="700" data-height="300" href="https://twitter.com/whomz_?ref_src=twsrc%5Etfw">Tweets by whomz_</a> 
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>   
+                </div>
+                
+            </div>  
+          </body>
+  </html>
