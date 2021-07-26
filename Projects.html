@@ -4,7 +4,7 @@
           <title>Home</title>
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="stylesheet"  href="main.css">
-            <script src="main.js"></script>
+
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
         </head>
 
@@ -12,31 +12,20 @@
             <section class="header">
                 <nav>
                   <a href="index.html"><img src="pics/s1.png"></a>
-                  <div class="nav-links" id="navLinks">
-                    <i class="fas fa-times" onclick="hidemenu()"></i>
+                  <div class="nav-links" >
+           
                     <ul>
                         <li><a href="index.html" >Home</a></li>
                         <li><a href="about.html">About</a></li>
-                        <li><a href="Projects.html">Projects</a>
+                        <li><a href="Projects.html">Projects</a></li> 
                         <li><a href="contact.html">Contact</a></li>         
                     </ul>
                   </div>
-                  <i class="fas fa-times" onclick="showmenu()"></i>
+  
                 </nav> 
               </section>  
 
-            <script>
-                var navlinks = document.getElementById("navLinks")
-
-                function showmenu(){
-                  navlinks.style.right = "0";
-                }
-                function hidemenu(){
-                  navlinks.style.right = "-200px";
-                }
-
-            </script>
-                    
+        
             <section id="mini-Projects">
                 <div class="header2">
                     <p>Here are some of my mini Projects</p>
