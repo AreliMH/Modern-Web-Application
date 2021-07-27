@@ -1,3 +1,2 @@
 # website
-
-https://github.com/AreliMH/website
+https://arelimh.github.io/website/
