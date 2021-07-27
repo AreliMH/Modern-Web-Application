@@ -24,16 +24,28 @@ nav
   justify-content: space-between;
 
 }
-.nav .a
+#header{
+  overflow: hidden;
+  background-color: #333;
+}
+.nav a
 {
   width: 150%;
   text-decoration: none;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  
 
 }
 .nav-links
 {
   flex: 1;
   text-align: right;
+  
 }
 .nav-links ul li
 {
@@ -41,6 +53,7 @@ nav
   display: inline-block;
   padding: 2px 4px;
   position: relative;
+  
 
 }
 .nav-links ul li a
@@ -293,8 +306,8 @@ nav
   font-size: 14px;
   color: rgba(0, 0, 0, 0.781);
 }
-@media(max-width: 768px){
-  .section-1 .row .col-md-6 .panel {
+@media(max-width: 700px){
+  .section-1 .row .col-md-6:last-child{
     position: initial;
     width: initial;
     height: initial;
@@ -429,7 +442,7 @@ transition: all ease 0.5s;
 
 }
 @media(max-width: 1000px){
-  .Card-Container{
+  #mini-Projects{
     flex-direction: column;
   }
 }
@@ -563,4 +576,3 @@ transition: all ease 0.5s;
   height: 100%;
   object-fit: cover;
 }
-
