@@ -341,7 +341,7 @@ nav
   font-size: 14px;
   color: rgba(0, 0, 0, 0.781);
 }
-@media(max-width: 700px){
+@media(max-width: 400px){
   .section-1 .row .col-md-6 .panel 
   {
     display: none;
