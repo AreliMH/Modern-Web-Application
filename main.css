@@ -496,7 +496,7 @@ transform:translateY(-10px);
 transition: all ease 0.5s;
 
 }
-@media screen and (max-width: 995px) {
+@media (max-width: 600px) {
   .Card-Container{
     flex-direction: column;
   }
