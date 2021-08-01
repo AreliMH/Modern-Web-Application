@@ -336,14 +336,12 @@ nav
   color: rgba(0, 0, 0, 0.781);
 }
 @media(max-width: 700px){
-  .section-1 .row .col-md-6:last-child
+  .section-1 .row .col-md-6 .panel 
   {
     position: initial;
-    width: initial;
-    height: initial;
+    width: 300%;
+    flex-direction: column;
   }
-  
-}
 .box
 {
   width: 90%;
