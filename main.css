@@ -589,6 +589,7 @@ transition: all ease 0.5s;
 @media(max-width: 700px){
   .contact-col{
     flex-direction: column;
+    padding: 10px 10px;
    
     
   }
