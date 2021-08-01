@@ -344,8 +344,9 @@ nav
 @media(max-width: 700px){
   .about-section .row .about-col .panel 
   {
-    position: initial;
+  position: initial;
   left: -70px;
+  margin-top: 10px;
   background: white;
   border-radius: 3px;
   text-align: left;
@@ -355,10 +356,11 @@ nav
    
   }
   .about-section {
-    padding: 100px 30px; 
+    padding: 10px 30px; 
+    margin-top: 1px;
   } 
   .about-section .row .about-col .about img{
-    padding: 100px 30px; 
+    padding: 10px 30px; 
     display: none;
    
   }
