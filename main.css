@@ -314,7 +314,7 @@ nav
 {
   position: absolute;
   top: 69px;
-  left: -900px;
+  left: -700px;
   background: white;
   border-radius: 3px;
   text-align: left;
@@ -339,9 +339,11 @@ nav
   .section-1 .row .col-md-6 .panel 
   {
     position: initial;
-    width: 300%;
-    flex-direction: column;
+    width: 400%;
+    flex-direction: row;
   }
+  
+}
 .box
 {
   width: 90%;
