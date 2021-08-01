@@ -552,6 +552,7 @@ transition: all ease 0.5s;
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
+    padding: 60px 50px;
 }
 
 .contact-col div
