@@ -586,17 +586,15 @@ transition: all ease 0.5s;
 @media(max-width: 700px){
   .contact-col{
     flex-direction: column;
-    padding: 10px 10px;
-   
-    
+    padding: 10px 10px;  
   }
   
-.contact
-{
+  .contact
+  {
     width: 100%;
     margin: auto;
     padding: 50px 100px;
-}
+  }
 }
 
 /*--footer--*/
